@@ -1,0 +1,15 @@
+{
+  "amendment": "v2.3 retrieval closed",
+  "ts": "2026-09-18T18:43:37.498420+00:00",
+  "late_duplicate_removed": "S0447",
+  "excluded_ft": [
+    "S0499 (E1)",
+    "S0584 (E2)"
+  ],
+  "not_retrieved": [
+    "S0799",
+    "S0928",
+    "S1436",
+    "S2427"
+  ]
+}

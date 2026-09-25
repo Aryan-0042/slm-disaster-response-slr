@@ -1,0 +1,8 @@
+{
+  "amendment": "v2.2 human finalize -> screening_v5",
+  "ts": "2026-09-15T16:38:52.109150+00:00",
+  "queue": 353,
+  "human_excludes": 329,
+  "human_includes": 24,
+  "triage_escalated_to_fulltext": 0
+}

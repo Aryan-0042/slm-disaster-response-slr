@@ -1,0 +1,12 @@
+{
+  "search_date": "2026-09-09",
+  "range_start": "2019-01-01",
+  "sources": [
+    "ieee",
+    "scopus",
+    "openalex",
+    "arxiv"
+  ],
+  "registered_at": "2026-09-09T14:24:59.816069Z",
+  "retroactive": false
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "query_id": "AX_q1",
+    "query": "(all:\"small language model\" OR all:\"on-device LLM\" OR all:\"offline LLM\" OR all:\"lightweight LLM\" OR all:\"quantized language model\" OR all:\"edge LLM\") AND (all:disaster OR all:emergency OR all:crisis OR all:humanitarian OR all:triage OR all:evacuation OR all:\"first aid\" OR all:\"mass casualty\")",
+    "hits": 168,
+    "totalResults": 168,
+    "capped": false
+  },
+  {
+    "query_id": "AX_q2",
+    "query": "(all:\"small language model\" OR all:\"on-device LLM\" OR all:\"offline LLM\") AND (all:conflict OR all:war OR all:\"armed conflict\" OR all:refugee OR all:displaced)",
+    "hits": 21,
+    "totalResults": 21,
+    "capped": false
+  },
+  {
+    "query_id": "AX_q3",
+    "query": "(all:RAG OR all:\"retrieval-augmented generation\" OR all:agentic OR all:\"multi-agent LLM\") AND (all:disaster OR all:emergency OR all:\"emergency response\" OR all:\"search and rescue\")",
+    "hits": 7191,
+    "totalResults": 7191,
+    "capped": false
+  },
+  {
+    "query_id": "AX_q4",
+    "query": "all:\"small language model\" AND (all:hallucination OR all:safety)",
+    "hits": 109,
+    "totalResults": 109,
+    "capped": false
+  },
+  {
+    "query_id": "AX_q5",
+    "query": "(all:\"large language model\" AND (all:\"small language model\" OR all:quantized OR all:distilled)) AND (all:disaster OR all:emergency OR all:efficiency)",
+    "hits": 2353,
+    "totalResults": 2353,
+    "capped": false
+  }
+]

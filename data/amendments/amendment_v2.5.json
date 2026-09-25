@@ -1,0 +1,8 @@
+{
+  "amendment": "v2.5 rubric applied -> screening_v7, final corpus frozen",
+  "ts": "2026-09-20T11:10:55.812394+00:00",
+  "rubric_cutoff": 5,
+  "assessed": 48,
+  "excluded_by_rubric": 11,
+  "final_included": 17
+}

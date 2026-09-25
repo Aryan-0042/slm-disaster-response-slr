@@ -1,0 +1,8 @@
+{
+  "amendment": "v1.8 late fuzzy dedup",
+  "ts": "2026-09-11T09:36:24.794369+00:00",
+  "auto_pairs": 10,
+  "manual_pairs": 0,
+  "review_pairs": 4,
+  "full_corpus_candidates": 259
+}

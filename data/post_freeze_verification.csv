@@ -1,0 +1,6 @@
+stage_id,item_checked,value_as_frozen_v2.5d,value_after_verification,reason
+S0005,report retrieval,full-text gate: E4,not retrieved (wrong document),"Archived file is a 1999 Oklahoma City tornado survey report (hdl.handle.net/11244/1289), not the record sought (LLM flood-risk education platform)."
+S1258,report retrieval,full-text gate: E4,not retrieved (wrong document),"Archived file is a 2011 review on crowdsourcing and citizen sensing (Int. J. Health Geographics), not the record sought (AI situation room for crisis management)."
+S2418,report retrieval,"included (rubric 5/8, CR=2 from abstract)",not retrieved (wrong document); awaiting classification,"Archived file is Kagai et al., Voice Over LoRa, ICOIN 2024 (no language model). The record sought (Amirkhanov et al., Nazarbayev University Repository, 2025) was not obtained."
+S0577,rubric score CR,2,1,"The only disconnection test described (LIFE-Link, 99% delivery under simulated cellular collapse) is attributed in the paper to its cited reference [9]; no primary test by the authors."
+S0093,rubric score S,2,1,"The archived safety quotation concerned latency (2.24 s). The paper describes only design choices to limit hallucination (instruction tuning, temperature 0); no systematic risk or failure-mode treatment."

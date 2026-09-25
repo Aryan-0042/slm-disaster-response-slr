@@ -1,0 +1,21 @@
+{
+  "amendment": "v1.9 audit design lock",
+  "locked_at": "2026-09-11T09:36:50.210634+00:00",
+  "false_out_rule": "clear false-OUT = should have been INCLUDE or HUMAN_REVIEW under locked rules",
+  "thresholds": {
+    "proceed": "<2%",
+    "expand_5pct_more": "2% to <5%",
+    "stop_and_rescreen": ">=5%"
+  },
+  "seed": 42,
+  "random_sample_policy": "reuse pre-drawn audit_5pct_sample.csv (drawn before results); duplicate_noncanonical rows excluded from denominator",
+  "random_sample_sha256": "4cac28cbb8ce3836485b696d5c810ad55948b93603184ebf1d5e38c0a09a2fbd",
+  "recall_plan": {
+    "strict_lanes": "100% of OUTs",
+    "AX_q5": "15% random",
+    "AX_q3": "100 random",
+    "OA_q28-40": "10% random",
+    "OA_q46-48+AX_q4": "5% random (secondary safety)"
+  },
+  "false_out_denominator": "audited canonical OUT rows"
+}

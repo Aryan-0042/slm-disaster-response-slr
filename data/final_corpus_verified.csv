@@ -1,0 +1,15 @@
+stage_id,short_name,year,venue_type,cluster,screening_label,language_models,hardware_for_results,grade_model_A,grade_hardware_X,grade_offline_O,grade_disaster_C,baseline_larger_L,baseline_peer_P,baseline_ablation_Ab,baseline_nonLLM_N,R,E,CR,S,total_verified,note
+S0002,ResQConnect,2025,Conference,Decision support,A+B+C,Llama-3.3-70B and Llama-4-Scout-17B via cloud API (agent logic); Gemma-2-9B 4-bit (non-critical chat),Cloud API,A3,X0,O1,C1,0,0,0,1,1,2,1,2,6,
+S0054,RLE-GSC UAV semantic communication,2026,Journal,Communication and edge,A+B+C,BLIP-base (~247M) on UAV; DeepSeek-R1 (671B MoE) + RAG and Doubao at base station,Simulation only,A3,X0,O1,C1,0,1,1,1,1,2,1,1,5,
+S0093,Multimodal disaster QA (Assam),2026,Conference,Information access,A+C,Gemma-3-4B-IT (selected); Qwen2-VL-2B; Phi-3-Vision 4.2B; InternVL-3.5-8B; ViLT+RoBERTa baseline,Kaggle cloud notebook (2x Tesla T4),A1,X0,O1,C1,1,1,0,1,2,2,1,1,6,S revised 2->1
+S0460,Edge-RAG over Bluetooth mesh,2026,Conference proceedings,Communication and edge,A+B+C,Not named; size not stated,"Workstation host (GTX 1660, 16 GB RAM) + 4 Android clients",A2,X1,O3p,C3,1,0,0,1,2,2,2,1,7,
+S0577,SLM disaster communication (LIFE-Link),2025,Journal (peer review not verified),Communication and edge,A+C,"Llama-3 8B; Qwen-2.5 7B (INT4, 5.6 GB)",Laptop (LoRA fine-tuning); other results cited from prior work,A1,X1,O3s,C1,0,0,0,1,1,2,1,1,5,CR revised 2->1
+S0585,ASIET + PicoClaw swarm agents,2026,Conference,Communication and edge,A+B+C,"Quantized 1.5B (~900 MB), Qwen series given as example",Emulated ARM Cortex-A76 gateway (4 GB),A1,X2,O3p,C3,0,0,0,1,1,1,2,1,5,
+S0610,EmoMAS negotiation agents,2026,Preprint,Decision support,A+B+C,Qwen-7B; Qwen-1.5B; GPT-4o-mini as comparator,Workstation GPU (RTX 4090),A1,X1,O1,C2,1,1,1,1,1,2,1,1,5,
+S0692,Lightweight LLM humanitarian tweet classification,2026,Preprint,Information access,A+B+C,Llama 3.1 8B (LoRA; QLoRA 4-bit NF4),Workstation GPU (RTX 3090),A1,X1,O0,C1,0,0,1,0,2,2,0,1,5,L: GPT-4 on subset only
+S1209,LLM agent evacuation-behaviour prediction,2025,Workshop,Decision support,A+B+C,Llama-3.1-8B-Instruct (LoRA),Not stated,A1,X0,O0,C1,0,0,1,0,2,2,0,1,5,
+S1411,H-J urban-flood multi-agent framework,2025,Preprint,Decision support,A+B+C,"Qwen-7B-Chat; GLM-6B (LoRA, 4-bit)",Workstation GPUs (2x RTX 4090),A1,X1,O0,C1,0,0,0,1,2,2,1,1,6,
+S3110,RAPTOR-AI OODA decision support,2026,Preprint,Decision support,A+B+C,GPT-OSS-20b (20.9B) summarizer; LoRA adapters (base unnamed); BLIP,Not stated,A2,X0,O0,C1,0,0,1,0,2,2,1,1,6,
+S3510,VLM UAV triage coordination agent,2026,Conference,Decision support,A+B+C,VLM not named,Not stated (software-in-the-loop simulation),A4,X0,O0,C1,0,0,0,1,2,2,0,1,5,
+S4013,OpenEarthAgent geospatial tool agent,2026,Preprint,Perception and geospatial,A+B+C,OpenEarthAgent-4B (Qwen3-4B-Instruct base),"Server GPUs (4x A100, training)",A1,X1,O0,C2,1,1,1,0,2,2,0,1,5,
+S4299,Onboard EO multi-agent reasoning,2026,Preprint,Perception and geospatial,A+B+C,"Qwen2-VL-2B, 4-bit","Engineering model of in-orbit edge platform (ARM, 16 cores, 32 GB)",A1,X3,O2,C1,0,0,1,0,2,2,1,1,6,

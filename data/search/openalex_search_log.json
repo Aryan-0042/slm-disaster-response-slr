@@ -1,0 +1,242 @@
+[
+  {
+    "query_id": "OA_q1",
+    "query": "\"small language model\" disaster",
+    "hits": 18
+  },
+  {
+    "query_id": "OA_q2",
+    "query": "\"small language model\" emergency",
+    "hits": 39
+  },
+  {
+    "query_id": "OA_q3",
+    "query": "\"small language model\" crisis",
+    "hits": 14
+  },
+  {
+    "query_id": "OA_q4",
+    "query": "\"small language model\" war",
+    "hits": 4
+  },
+  {
+    "query_id": "OA_q5",
+    "query": "\"small language model\" humanitarian",
+    "hits": 0
+  },
+  {
+    "query_id": "OA_q6",
+    "query": "\"small language model\" conflict",
+    "hits": 70
+  },
+  {
+    "query_id": "OA_q7",
+    "query": "\"local LLM\" disaster",
+    "hits": 0
+  },
+  {
+    "query_id": "OA_q8",
+    "query": "\"local LLM\" emergency",
+    "hits": 8
+  },
+  {
+    "query_id": "OA_q9",
+    "query": "\"local LLM\" conflict",
+    "hits": 30
+  },
+  {
+    "query_id": "OA_q10",
+    "query": "\"local language model\" disaster",
+    "hits": 1
+  },
+  {
+    "query_id": "OA_q11",
+    "query": "\"local language model\" emergency",
+    "hits": 1
+  },
+  {
+    "query_id": "OA_q12",
+    "query": "\"offline LLM\" disaster",
+    "hits": 0
+  },
+  {
+    "query_id": "OA_q13",
+    "query": "\"offline LLM\" emergency",
+    "hits": 2
+  },
+  {
+    "query_id": "OA_q14",
+    "query": "\"offline language model\" disaster",
+    "hits": 0
+  },
+  {
+    "query_id": "OA_q15",
+    "query": "\"offline language model\" emergency",
+    "hits": 0
+  },
+  {
+    "query_id": "OA_q16",
+    "query": "\"on-device LLM\" disaster",
+    "hits": 2
+  },
+  {
+    "query_id": "OA_q17",
+    "query": "\"on-device LLM\" emergency",
+    "hits": 0
+  },
+  {
+    "query_id": "OA_q18",
+    "query": "\"on-device language model\" emergency",
+    "hits": 0
+  },
+  {
+    "query_id": "OA_q19",
+    "query": "\"edge LLM\" disaster",
+    "hits": 0
+  },
+  {
+    "query_id": "OA_q20",
+    "query": "\"edge LLM\" emergency",
+    "hits": 2
+  },
+  {
+    "query_id": "OA_q21",
+    "query": "\"quantized LLM\" disaster",
+    "hits": 0
+  },
+  {
+    "query_id": "OA_q22",
+    "query": "\"quantized LLM\" emergency",
+    "hits": 1
+  },
+  {
+    "query_id": "OA_q23",
+    "query": "\"lightweight LLM\" disaster",
+    "hits": 4
+  },
+  {
+    "query_id": "OA_q24",
+    "query": "\"lightweight LLM\" emergency",
+    "hits": 4
+  },
+  {
+    "query_id": "OA_q25",
+    "query": "\"distilled LLM\" disaster",
+    "hits": 1
+  },
+  {
+    "query_id": "OA_q26",
+    "query": "\"distilled LLM\" emergency",
+    "hits": 0
+  },
+  {
+    "query_id": "OA_q27",
+    "query": "\"distilled language model\" humanitarian",
+    "hits": 0
+  },
+  {
+    "query_id": "OA_q28",
+    "query": "LLM RAG disaster response",
+    "hits": 37
+  },
+  {
+    "query_id": "OA_q29",
+    "query": "LLM RAG emergency",
+    "hits": 161
+  },
+  {
+    "query_id": "OA_q30",
+    "query": "LLM RAG conflict",
+    "hits": 495
+  },
+  {
+    "query_id": "OA_q31",
+    "query": "LLM RAG humanitarian",
+    "hits": 13
+  },
+  {
+    "query_id": "OA_q32",
+    "query": "LLM agent disaster",
+    "hits": 201
+  },
+  {
+    "query_id": "OA_q33",
+    "query": "LLM agent emergency",
+    "hits": 293
+  },
+  {
+    "query_id": "OA_q34",
+    "query": "LLM agent conflict",
+    "hits": 1518
+  },
+  {
+    "query_id": "OA_q35",
+    "query": "\"multi-agent LLM\" disaster",
+    "hits": 7
+  },
+  {
+    "query_id": "OA_q36",
+    "query": "\"multi-agent LLM\" emergency",
+    "hits": 14
+  },
+  {
+    "query_id": "OA_q37",
+    "query": "\"language model\" \"state machine\" emergency",
+    "hits": 3
+  },
+  {
+    "query_id": "OA_q38",
+    "query": "\"language model\" \"state machine\" disaster",
+    "hits": 0
+  },
+  {
+    "query_id": "OA_q39",
+    "query": "\"language model\" \"tool use\" disaster",
+    "hits": 17
+  },
+  {
+    "query_id": "OA_q40",
+    "query": "\"LLM\" \"tool use\" emergency",
+    "hits": 17
+  },
+  {
+    "query_id": "OA_q41",
+    "query": "\"large language model\" \"small language model\" disaster",
+    "hits": 3
+  },
+  {
+    "query_id": "OA_q42",
+    "query": "\"large language model\" \"small language model\" emergency",
+    "hits": 15
+  },
+  {
+    "query_id": "OA_q43",
+    "query": "\"large language model\" quantized disaster",
+    "hits": 3
+  },
+  {
+    "query_id": "OA_q44",
+    "query": "\"large language model\" distilled emergency",
+    "hits": 9
+  },
+  {
+    "query_id": "OA_q45",
+    "query": "LLM distillation disaster",
+    "hits": 7
+  },
+  {
+    "query_id": "OA_q46",
+    "query": "\"small language model\" hallucination",
+    "hits": 288
+  },
+  {
+    "query_id": "OA_q47",
+    "query": "LLM hallucination disaster",
+    "hits": 44
+  },
+  {
+    "query_id": "OA_q48",
+    "query": "LLM safety emergency",
+    "hits": 496
+  }
+]

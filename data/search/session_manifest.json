@@ -1,0 +1,86 @@
+[
+  {
+    "session_ts": "2026-09-09T14:25:02.637285Z",
+    "search_date": "2026-09-09",
+    "files": {
+      "ieee_core.csv": {
+        "sha256": "3287154c9c1dccf4b60dcb81b57d1afa0fb13cb482b8b04927e652dca896c1b7",
+        "rows": 180,
+        "columns_ok": true
+      },
+      "ieee_supp.csv": {
+        "sha256": "145bfbaceaeaef00eff93268bcb26b74f09acbf6efc63ca426d2871954a0c82f",
+        "rows": 294,
+        "columns_ok": true
+      },
+      "scopus.csv": {
+        "sha256": "eb3cd134871fe964b1f591833cd3427a0667a527d1e11a34e2d4003638c9d3d8",
+        "rows": 281,
+        "columns_ok": true
+      }
+    }
+  },
+  {
+    "session_ts": "2026-09-09T17:00:57.273252Z",
+    "search_date": "2026-09-09",
+    "files": {
+      "ieee_core.csv": {
+        "sha256": "3287154c9c1dccf4b60dcb81b57d1afa0fb13cb482b8b04927e652dca896c1b7",
+        "rows": 180,
+        "columns_ok": true
+      },
+      "ieee_supp.csv": {
+        "sha256": "145bfbaceaeaef00eff93268bcb26b74f09acbf6efc63ca426d2871954a0c82f",
+        "rows": 294,
+        "columns_ok": true
+      },
+      "scopus.csv": {
+        "sha256": "eb3cd134871fe964b1f591833cd3427a0667a527d1e11a34e2d4003638c9d3d8",
+        "rows": 281,
+        "columns_ok": true
+      }
+    }
+  },
+  {
+    "session_ts": "2026-09-10T01:51:15.132994Z",
+    "search_date": "2026-09-09",
+    "files": {
+      "ieee_core.csv": {
+        "sha256": "3287154c9c1dccf4b60dcb81b57d1afa0fb13cb482b8b04927e652dca896c1b7",
+        "rows": 180,
+        "columns_ok": true
+      },
+      "ieee_supp.csv": {
+        "sha256": "145bfbaceaeaef00eff93268bcb26b74f09acbf6efc63ca426d2871954a0c82f",
+        "rows": 294,
+        "columns_ok": true
+      },
+      "scopus.csv": {
+        "sha256": "eb3cd134871fe964b1f591833cd3427a0667a527d1e11a34e2d4003638c9d3d8",
+        "rows": 281,
+        "columns_ok": true
+      }
+    }
+  },
+  {
+    "session_ts": "2026-09-10T01:55:18.930750Z",
+    "search_date": "2026-09-09",
+    "files": {
+      "ieee_core.csv": {
+        "sha256": "3287154c9c1dccf4b60dcb81b57d1afa0fb13cb482b8b04927e652dca896c1b7",
+        "rows": 180,
+        "columns_ok": true
+      },
+      "ieee_supp.csv": {
+        "sha256": "145bfbaceaeaef00eff93268bcb26b74f09acbf6efc63ca426d2871954a0c82f",
+        "rows": 294,
+        "columns_ok": true
+      },
+      "scopus.csv": {
+        "sha256": "eb3cd134871fe964b1f591833cd3427a0667a527d1e11a34e2d4003638c9d3d8",
+        "rows": 281,
+        "columns_ok": true
+      }
+    }
+  }
+]

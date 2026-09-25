@@ -1,0 +1,12 @@
+{
+  "amendment": "v2.4 full-text gate closed -> screening_v6",
+  "ts": "2026-09-19T19:36:47.436090+00:00",
+  "human_class_counts": {
+    "full_ABC": 25,
+    "OUT:E4": 8,
+    "OUT:E5": 7,
+    "OUT:E7": 5,
+    "partial_AC": 3
+  },
+  "includes_pre_rubric": 28
+}

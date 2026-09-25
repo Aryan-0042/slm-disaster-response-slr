@@ -1,0 +1,375 @@
+stage_id,h2_q1,h2_q1_ev,h2_q2,h2_q2_ev,h2_q3,h2_q3_ev,q1_agree,q2_agree,q3_agree,pass2_used,h2_status
+S0002,yes,knowledge retrieval using a Retrieval-Augmented Generation (RAG) pipeline,yes,"lightweight, multi-agent architecture",yes,"AI-driven, human-centered digital platform designed for intelligent, real-time disaster management",True,True,True,True,RESOLVED
+S0054,yes,LLM-enhanced generative semantic communication framework for UAV-assisted emergency response,yes,retrieval-augmented generation (RAG) and large language model (LLM)-enhanced generative semantic communication framework,yes,LLM-enhanced generative semantic communication and DRL resource management for UAV-assisted emergency response,True,True,True,True,RESOLVED
+S0092,yes,"Recently, large language model (LLM) and multi-modal large models (MMLM) have demonstrated strong zero-shot and few-shot detection capabilities.",unsure,,unsure,,,,,False,STILL_UNSURE
+S0309,yes,While Large Language Models (LLMs) excel in natural language tasks,yes,we propose the Multi-Agent Collaborative Framework (MA-CF),unsure,,,,,False,STILL_UNSURE
+S0335,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0353,yes,LLM-guided multi-agent platform for coordinating evacuations during wildfires,yes,LLM-guided multi-agent platform for coordinating evacuations during wildfires,yes,coordinating evacuations during wildfires,True,True,True,True,RESOLVED
+S0460,yes,Large Language Models (LLMs) have significantly advanced natural language processing,yes,"Edge-RAG over Bluetooth Mesh, a retrieval-augmented generation framework",unsure,"deploying edge-native LLMs for disaster recovery, secure organizational use, and rural connectivity scenarios",,,,False,STILL_UNSURE
+S0477,yes,LLM-as-a-Judge scoring,yes,self-organizing RAG architecture,yes,disaster medicine requires rapid access to a hierarchical corpus of normative documents,True,True,True,True,RESOLVED
+S0495,yes,"To solve such a problem, existing approaches usually only keep the most frequently mentioned knowledge from these documents",yes,BordaRAG: Resolving Knowledge Conflict in Retrieval-Augmented Generation via Borda Voting Process,unsure,,,,,False,STILL_UNSURE
+S0530,yes,knowledge retrieval using a Retrieval-Augmented Generation (RAG) pipeline,yes,"lightweight, multi-agent architecture",yes,"AI-driven, human-centered digital platform designed for intelligent, real-time disaster management",True,True,True,True,RESOLVED
+S0533,yes,The system utilizes Retrieval-Augmented Generation (RAG) technology and a large-scale language model (LLM).,yes,The system utilizes Retrieval-Augmented Generation (RAG) technology and consists of two types of chatbots.,yes,disaster response knowledge-sharing system for local governments,True,True,True,True,RESOLVED
+S0575,yes,GPT-4o-mini achieves the highest average macro F1 score (0.77) using just five labelled examples per class,no,,yes,efficiently identifying relevant content remains a challenge due to the reliance on large labelled datasets and high computational costs during natural disasters,True,True,True,True,RESOLVED
+S0578,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0580,unsure,,unsure,,yes,Enhance Information Coordination in Disaster Relief Operations,,,,False,STILL_UNSURE
+S0587,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0610,yes,Large language models (LLMs) has been widely used for automated negotiation,yes,"EmoMAS, a Bayesian multi-agent framework that transforms emotional decision-making from reactive to strategic",yes,emergency response,True,True,True,True,RESOLVED
+S0611,yes,Large language models (LLMs) have been widely used for automated negotiation,yes,"We introduce EmoMAS, a Bayesian multi-agent framework that transforms emotional decision-making from reactive to strategic",yes,emergency response,True,True,True,True,RESOLVED
+S0616,yes,DeEscalWild focuses on reasoning-centric de-escalation using Small Language Models (SLMs).,unsure,,yes,DeEscalWild focuses on reasoning-centric de-escalation and crisis intervention training.,,,,False,STILL_UNSURE
+S0631,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0632,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0634,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0639,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0655,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0672,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0676,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0680,unsure,,unsure,,no,Beyond Blocking: A Privacy-Preserving Local AI System for Empathic Game Coaching in Children,,,,False,STILL_UNSURE
+S0695,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0696,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0701,unsure,,unsure,,yes,Disaster Response Knowledge-Sharing System for Local Governments,,,,False,STILL_UNSURE
+S0702,unsure,,unsure,,yes,Interactive Disaster Training Scenario Generation System with Large Language Models,,,,False,STILL_UNSURE
+S0706,yes,This paper presents a comparative study of a standard RAG and a proposed Agentic RAG framework designed for disaster coordination.,yes,This paper presents a comparative study of a standard RAG and a proposed Agentic RAG framework designed for disaster coordination.,yes,This paper presents a comparative study of a standard RAG and a proposed Agentic RAG framework designed for disaster coordination.,True,True,True,True,RESOLVED
+S0713,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0720,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0722,yes,The system was built using an embedding-based RAG architecture.,yes,The system was built using an embedding-based RAG architecture.,yes,"responded to residents' demand for clearer disaster communication, especially on typhoons, floods, evacuation instructions, emergency hotlines, go-bag preparation, and weather warnings.",True,True,True,True,RESOLVED
+S0749,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0751,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0752,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0753,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0757,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0763,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0765,yes,proposed a Retrieval-Augmented Generation (RAG)-enhanced LLM framework for hydrogen emergency management,yes,proposed a Retrieval-Augmented Generation (RAG)-enhanced LLM framework,yes,emergency management of hydrogen leakage and explosion incidents,True,True,True,True,RESOLVED
+S0770,unsure,,unsure,,yes,Emergency Rescue in Blockage-Type Tunnel Collapses,,,,False,STILL_UNSURE
+S0777,yes,This paper presents a multimodal flood decision-support system that combines Large Language Models (LLMs),yes,a RAG framework to ground LLM outputs in current and historically validated flood conditions,yes,for operational flood risk communication,True,True,True,True,RESOLVED
+S0778,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0787,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0788,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0796,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0799,yes,"Nurse Agent, powered by a large language model",yes,"This study employs a quantitative, simulation-based experimental strategy grounded in retrospective, de-identified electronic health records",no,Triage of elderly fall patients,True,True,True,True,RESOLVED
+S0802,unsure,,unsure,,no,"Clinical decision support in outpatient, general practice and acute settings",,,,False,STILL_UNSURE
+S0811,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0815,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0818,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0828,unsure,,unsure,,no,An Autonomous Reasoning and Intervention Architecture for Bioregenerative Life Support Systems on Long-Duration Mars Missions,,,,False,STILL_UNSURE
+S0833,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0835,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0845,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0866,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0871,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0872,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0881,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0882,yes,RAG has emerged as a promising solution to address hallucination issues in Large Language Models (LLMs).,yes,"we propose MultiRAG, a novel framework designed to mitigate hallucination in multi-source retrieval-augmented generation through knowledge-guided approaches.",no,Extensive experiments on four multi-domain query datasets and two multi-hop QA datasets demonstrate that MultiRAG significantly enhances the reliability and efficiency of knowledge retrieval in complex multi-source scenarios.,True,True,True,True,RESOLVED
+S0884,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0910,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0927,unsure,,unsure,,no,LLM-RAG Intent Translation Meets Dual Time Scale Control for QoS-Guaranteed Video Services,,,,False,STILL_UNSURE
+S0930,unsure,,unsure,,no,Modular Hospital Building Services Design,,,,False,STILL_UNSURE
+S0940,unsure,,unsure,,no,Graph context fusion-based RAG framework for industrial equipment operation and maintenance,,,,False,STILL_UNSURE
+S0950,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0952,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0956,yes,mitigates hallucinations in large language models (LLMs),yes,Dynamic Knowledge Fusion-enhanced Retrieval-Augmented Generation,no,mitigates hallucinations in large language models (LLMs),True,True,True,True,RESOLVED
+S0970,yes,"This paper proposes Retrieval-Augmented Generation with Evidence Graph (EG-RAG), which leverages Large Language Models (LLMs).",yes,EG-RAG leverages external knowledge to enhance the recency and factuality of Large Language Models (LLMs).,unsure,,,,,False,STILL_UNSURE
+S0976,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0979,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S0990,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1017,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1022,yes,"To solve such a problem, existing approaches usually only keep the most frequently mentioned knowledge from these documents",yes,BordaRAG: Resolving Knowledge Conflict in Retrieval-Augmented Generation via Borda Voting Process,unsure,,,,,False,STILL_UNSURE
+S1023,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1035,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1046,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1054,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1079,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1086,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1109,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1110,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1131,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1139,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1143,unsure,,unsure,,no,Ontology Poisoning in Military AI Fusion Systems,,,,False,STILL_UNSURE
+S1164,unsure,,unsure,,no,Vision language model-enhanced embodied intelligence for AR-assisted HRC assembly,,,,False,STILL_UNSURE
+S1165,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1168,unsure,,unsure,,no,Unmanned Traffic Management,,,,False,STILL_UNSURE
+S1172,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1197,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1198,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1199,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1220,unsure,,unsure,,yes,Socio-technical regional disaster recovery modelling,,,,False,STILL_UNSURE
+S1228,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1237,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1244,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1252,yes,LLM-Guided Reinforcement Learning for Dynamic Navigation,unsure,,yes,Characterizing the Benefits and Limits of Language Assistance in a Fire Disaster Scenario,,,,False,STILL_UNSURE
+S1254,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1257,unsure,,unsure,,yes,automated disaster resilience assessment and recovery decision support of infrastructure,,,,False,STILL_UNSURE
+S1258,yes,"LLMs show promise in synthesising complex information, their operational use in disaster contexts is limited",yes,This contribution presents an AI Situation Room architecture designed to address these challenges,yes,"disaster management decision-making remains constrained by fragmented information, time pressure, and high levels of uncertainty",True,True,True,True,RESOLVED
+S1275,yes,"Our system integrates specialized models within a multi-agent architecture, with a Coordinator Agent leveraging a Large Language Model.",yes,"This paper introduces a novel agentic AI framework, implemented as an LLM-coordinated multi-agent system.",yes,Flood forecasting is a critical challenge in disaster management,True,True,True,True,RESOLVED
+S1277,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1280,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1299,yes,benchmark our LLM agent architecture,yes,benchmark our LLM agent architecture,yes,Georelating Annotated Natural Disaster Reports dataset GANDR,True,True,True,True,RESOLVED
+S1312,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1321,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1332,unsure,,yes,Proactive decision-making agent for industrial leakage and explosion emergencies,no,Proactive decision-making agent for industrial leakage and explosion emergencies,,,,False,STILL_UNSURE
+S1333,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1336,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1340,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1341,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1348,yes,LLM-guided multi-agent platform for coordinating evacuations during wildfires,yes,LLM-guided multi-agent platform for coordinating evacuations during wildfires,yes,coordinating evacuations during wildfires,True,True,True,True,RESOLVED
+S1353,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1357,unsure,,unsure,,no,Child Medical Emergency,,,,False,STILL_UNSURE
+S1360,unsure,,unsure,,no,The title mentions 'novel driving simulation for corner case generation' which is unrelated to civilian disaster/emergency/crisis/humanitarian/armed-conflict response.,,,,False,STILL_UNSURE
+S1373,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1374,unsure,,unsure,,no,traffic light control,,,,False,STILL_UNSURE
+S1380,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1384,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1387,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1391,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1393,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1401,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1408,yes,"SiagaJakarta, a multi-agent design-LLM Orchestrator",yes,"SiagaJakarta, a multi-agent design-LLM Orchestrator",yes,Equitable access to emergency services is a core requirement for urban resilience,True,True,True,True,RESOLVED
+S1411,yes,LLM-generated strategies frequently suffer from semantic instability and execution inconsistency.,yes,"H-J, a hierarchical multi-agent framework that integrates knowledge-guided prompting, entropy-constrained generation, and feedback-driven optimization.",yes,"To tackle these challenges, we introduce H-J, a hierarchical multi-agent framework that integrates knowledge-guided prompting, entropy-constrained generation, and feedback-driven optimization for urban flood response.",True,True,True,True,RESOLVED
+S1413,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1416,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1419,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1432,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1435,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1436,yes,This project introduces a self-calibrating LLM-agent evacuation framework,yes,integrates a multi-agent in a grid-based emergency simulation with an online prompt calibration loop,yes,LLM-agent evacuation framework that integrates a multi-agent in a grid-based emergency simulation,True,True,True,True,RESOLVED
+S1442,yes,deploying large-scale models such as Large Language Models (LLMs),yes,we present a novel Agentic AI framework where specialized agents assume distinct functional roles within a coordinated system,yes,validate its effectiveness in intelligent decision-making and control through emergency traffic evacuation scenarios,True,True,True,True,RESOLVED
+S1446,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1448,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1456,unsure,,unsure,,no,MedClarify: An information-seeking AI agent for medical diagnosis with case-specific follow-up questions,,,,False,STILL_UNSURE
+S1458,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1461,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1467,unsure,,unsure,,no,Clinical decision support in Ileus and Volvulus,,,,False,STILL_UNSURE
+S1468,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1476,unsure,,unsure,,no,COPD and Asthma Management,,,,False,STILL_UNSURE
+S1481,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1484,unsure,,unsure,,no,A survey of large language models for urban traffic signal control,,,,False,STILL_UNSURE
+S1498,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1521,unsure,,unsure,,no,LLM-based multi-agent task planning for human-robot collaborative assembly balancing operator experience and efficiency,,,,False,STILL_UNSURE
+S1526,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1561,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1568,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1569,unsure,,unsure,,no,Exploring LLM Agents for Simulating Conflict Events,,,,False,STILL_UNSURE
+S1570,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1578,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1584,unsure,,unsure,,no,,,,,False,STILL_UNSURE
+S1591,unsure,,unsure,,no,Simulating Ideological Deadlock: Persona Stability and Conflict Resolution in LLM-Based Multi-Agent Frameworks,,,,False,STILL_UNSURE
+S1608,unsure,,unsure,,no,When Multi-Agent LLM Pipelines Help or Hurt: Evidence from Git Merge Conflict Resolution Study Results,,,,False,STILL_UNSURE
+S1615,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1616,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1622,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1637,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1646,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1685,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1689,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1703,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1720,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1730,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1734,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1738,unsure,,unsure,,no,PV-EV penetrated distribution networks,,,,False,STILL_UNSURE
+S1741,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1742,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1755,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1767,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1771,unsure,,unsure,,no,Quality Control in Metal Additive Manufacturing,,,,False,STILL_UNSURE
+S1774,yes,runs real LLM agents,yes,"state machine, tool gateway, task-level validation",no,runs real LLM agents,True,True,True,True,RESOLVED
+S1785,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1800,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1813,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1818,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1821,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1852,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1860,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1903,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1908,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1933,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1936,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1942,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1953,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1958,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1977,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S1988,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2007,unsure,,unsure,,no,Large Language Model-Driven Multi-agent Collaborative Framework for Chinese Grammatical Error Correction,,,,False,STILL_UNSURE
+S2016,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2026,unsure,,unsure,,no,"Agentic AI and Cybersecurity: Threats, Defenses, and Open Problems",,,,False,STILL_UNSURE
+S2039,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2049,unsure,,unsure,,no,From text to slot: a multi-agent framework for terminal-oriented container stowage planning via large language models,,,,False,STILL_UNSURE
+S2058,unsure,,unsure,,no,Cyber Defence Agents (not related to civilian disaster/emergency/crisis/humanitarian/armed-conflict response),,,,False,STILL_UNSURE
+S2060,unsure,,yes,Heterogeneous Multi-Agent Pipelines for Simulating Geopolitical Crisis,no,Heterogeneous Multi-Agent Pipelines for Simulating Geopolitical Crisis,,,,False,STILL_UNSURE
+S2061,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2067,unsure,,unsure,,no,AI-Mediated E-Negotiation in Knowledge-Based Organizations,,,,False,STILL_UNSURE
+S2080,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2082,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2087,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2096,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2105,unsure,,unsure,,no,Agentic AI for Knowledge-Driven Hull-Form Design in High-Speed Autonomous Surface Vessels,,,,False,STILL_UNSURE
+S2109,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2110,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2112,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2113,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2116,unsure,,unsure,,no,,,,,False,STILL_UNSURE
+S2126,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2132,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2141,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2152,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2177,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2181,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2186,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2188,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2189,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2193,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2197,unsure,,unsure,,no,Adaptive Weather-Aware Home Energy Management through Large Language Model-Based Appliance Scheduling,,,,False,STILL_UNSURE
+S2204,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2207,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2216,unsure,,unsure,,no,Exploring Multiple Factors that Influenced the Course of World Wars,,,,False,STILL_UNSURE
+S2229,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2235,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2237,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2251,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2255,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2257,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2272,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2276,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2301,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2330,unsure,,unsure,,no,,,,,False,STILL_UNSURE
+S2341,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2418,yes,"the system employs a pipeline combining speech-to-text (Whisper), on-device summarization via a quantized large language model (Ollama)",unsure,,yes,"designed for use in low-bandwidth, infrastructure-limited environments such as disaster zones and remote areas",,,,False,STILL_UNSURE
+S2429,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2440,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2448,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2451,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2452,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2453,yes,reducing hallucinations in Small Language Models,yes,AMD employs a three-agent architecture,no,reducing hallucinations in Small Language Models,True,True,True,True,RESOLVED
+S2459,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2466,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2467,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2472,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2474,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2476,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2483,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2488,yes,Tiny-Critic RAG employs a parameter-efficient Small Language Model (SLM) via Low-Rank Adaptation (LoRA).,yes,Tiny-Critic RAG decouples evaluation by deploying a parameter-efficient Small Language Model (SLM) for binary routing in autonomous agent scenarios.,no,autonomous agent scenarios,True,True,True,True,RESOLVED
+S2493,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2500,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2512,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2514,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2518,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2526,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2528,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2530,yes,Large language models (LLMs) have achieved remarkable advancements in natural language processing.,no,,no,,True,True,True,True,RESOLVED
+S2537,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2539,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2550,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2555,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2559,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2565,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2582,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2593,unsure,,unsure,,no,Home Energy Management Systems,,,,False,STILL_UNSURE
+S2597,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2600,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2609,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2610,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2613,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2629,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2634,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2637,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2638,unsure,,unsure,,yes,A neuro-symbolic framework for intelligent disaster chain analysis from multi-source text,,,,False,STILL_UNSURE
+S2639,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2659,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2664,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2665,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2668,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2680,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2684,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2686,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2690,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2692,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2695,unsure,,unsure,,no,routine hospital EHR / electronic medical-record triage systems,,,,False,STILL_UNSURE
+S2702,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2705,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2707,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2708,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2713,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2720,unsure,,unsure,,no,Large language model as a clinical decision support tool in the initial management of critically ill children,,,,False,STILL_UNSURE
+S2721,unsure,,unsure,,no,"A STROBE-guided benchmark of GPT-4, GPT-5, and Gemini for non-operative acute appendicitis management",,,,False,STILL_UNSURE
+S2731,unsure,,unsure,,yes,A Virtual Assistant for Enhanced Decision-Making in Disaster Response,,,,False,STILL_UNSURE
+S2734,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2736,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2738,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2754,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2764,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2775,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2781,unsure,,unsure,,no,routine hospital EHR / electronic medical-record triage systems,,,,False,STILL_UNSURE
+S2784,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2808,unsure,,unsure,,yes,detecting veracity of disaster rescue requests under early-stage data scarcity,,,,False,STILL_UNSURE
+S2810,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2863,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2865,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2873,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2877,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2895,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2902,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2909,unsure,,unsure,,no,routine hospital EHR / electronic medical-record triage systems,,,,False,STILL_UNSURE
+S2911,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2913,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S2957,yes,Squat: Quant Small Language Models on the Edge,no,,no,,True,True,True,True,RESOLVED
+S2993,yes,Large language models (LLMs) have transformed natural language processing,yes,"Distributed Split Speculative Decoding (DSSD), a novel architecture",unsure,,,,,False,STILL_UNSURE
+S2999,yes,"This work proposes a framework to experimentally evaluate small, open LMs in practical settings.",unsure,,unsure,,,,,False,STILL_UNSURE
+S3034,yes,This paper presents a systematic empirical study of the scaling behavior and deployment efficiency of compact language models for network-level semantic reasoning in AI-native 6G systems.,unsure,,no,This paper presents a systematic empirical study of the scaling behavior and deployment efficiency of compact language models for network-level semantic reasoning in AI-native 6G systems.,,,,False,STILL_UNSURE
+S3110,yes,"introduces RAPTOR-AI, an agentic multimodal Retrieval-Augmented Generation (RAG) framework",yes,"introduces RAPTOR-AI, an agentic multimodal Retrieval-Augmented Generation (RAG) framework",yes,Humanitarian Assistance and Disaster Relief (HADR) operations demand rapid synthesis of multimodal information for time-critical decision-making under extreme uncertainty,True,True,True,True,RESOLVED
+S3119,yes,This paper presents a novel approach for unified retrieval-augmented generation (RAG) systems using the recent emerging large language model (LLM) agent concept.,yes,we propose a trainable agent framework called Agent-UniRAG for unified retrieval-augmented LLM systems,unsure,,,,,False,STILL_UNSURE
+S3233,yes,Reinforcement Learning has emerged as a dominant post-training approach to elicit agentic RAG behaviors such as search and planning from language models.,yes,Reinforcement Learning has emerged as a dominant post-training approach to elicit agentic RAG behaviors such as search and planning from language models.,unsure,,,,,False,STILL_UNSURE
+S3371,yes,FoRAG: Factuality-optimized Retrieval Augmented Generation for Web-enhanced Long-form Question Answering,yes,Factuality-optimized RAG (FoRAG) method on both English and Chinese benchmarks,no,Factuality-optimized RAG (FoRAG) method on both English and Chinese benchmarks,True,True,True,True,RESOLVED
+S3496,yes,"SafeMate, a retrieval-augmented AI assistant",yes,"SafeMate, a retrieval-augmented AI assistant that delivers accurate, context-aware guidance",yes,"delivering accurate, context-aware guidance to general users in both preparedness and active emergency scenarios",True,True,True,True,RESOLVED
+S3503,unsure,,unsure,,yes,Natural disasters always have several effects on human lives.,,,,False,STILL_UNSURE
+S3510,yes,Recent advances in Vision Language Models (VLMs) have created new opportunities for disaster response,yes,This study explores the viability of embedding VLMs as coordination agents within the human-UAV loop,yes,This study explores the viability of embedding VLMs as coordination agents within the human-UAV loop,True,True,True,True,RESOLVED
+S3572,yes,The emergence of Large Language Models (LLMs) has significantly advanced natural language processing,yes,integrating an intelligent information assistant within LLMs,unsure,,,,,False,STILL_UNSURE
+S3605,yes,implementing them on-device has become essential for privacy and responsiveness,yes,"We propose EPIC (Efficient Preference-aligned Index Construction), which focuses on user preferences as a compact and stable form of personal context and integrates them throughout the RAG pipeline",unsure,,,,,False,STILL_UNSURE
+S4013,yes,"agents that interpret imagery, connect it with language, and execute structured analytical tasks",yes,a unified framework for tool-augmented geospatial reasoning,unsure,"disaster, and infrastructure domains",,,,False,STILL_UNSURE
+S4299,yes,"The system combines vision-language models, traditional remote sensing analysis tools, and role-specialized agents",yes,This work proposes a hierarchical multi-agent architecture for onboard EO processing,yes,supporting disaster response,True,True,True,True,RESOLVED
+S4931,yes,Retrieval-Augmented Large Language Models (LLMs),yes,Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity,unsure,,,,,False,STILL_UNSURE
+S10095,yes,SLMQuant:Benchmarking Small Language Model Quantization for Practical Deployment,no,,no,,True,True,True,True,RESOLVED
+S10113,yes,"In this paper, we lay down the foundation for LLM quantization",no,,no,,True,True,True,True,RESOLVED
+S10116,yes,This paper proposes a principle to leverage human priors for data construction in Small Language Models (SLMs).,no,,no,,True,True,True,True,RESOLVED
+S10146,yes,Quantized large language models (LLMs) have gained increasing attention and significance,no,,no,,True,True,True,True,RESOLVED
+S10151,yes,developing efficient Small Language Models (SLMs) and Multimodal Small Language Models (MSLMs),no,,no,,True,True,True,True,RESOLVED
+S10174,yes,Given the exceptional performance of proprietary large language models (LLMs) like GPT-4,no,,no,,True,True,True,True,RESOLVED
+S10182,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S10212,yes,Knowledge distillation (KD) is an effective model compression method that can transfer the internal capabilities of large language models (LLMs) to smaller ones.,no,,no,,True,True,True,True,RESOLVED
+S10220,unsure,,unsure,,no,Large language model inference is often bounded by memory footprint and bandwidth in resource-constrained deployments,,,,False,STILL_UNSURE
+S10229,yes,"Luth, a family of French-specialized SLMs",no,,no,,True,True,True,True,RESOLVED
+S10249,yes,"FutureMind, a modular reasoning framework that equips SLMs with strategic thinking-pattern priors via adaptive knowledge distillation from large language models (LLMs).",unsure,,unsure,,,,,False,STILL_UNSURE
+S10257,yes,"Small language models (SLMs), despite their widespread adoption in modern smart devices",unsure,,unsure,,,,,False,STILL_UNSURE
+S10266,yes,Deploying large language models (LLMs) in resource-constrained environments is hindered by heavy computational and memory requirements.,no,,no,,True,True,True,True,RESOLVED
+S10269,yes,Small Language models (SLMs) offer an efficient and accessible alternative to Large Language Models (LLMs),no,,no,,True,True,True,True,RESOLVED
+S10276,yes,the compression of large language models (LLMs),no,,no,,True,True,True,True,RESOLVED
+S10278,yes,"Building upon the foundational work of Professor Song Han's lab at MIT, this paper introduces a novel approach in developing Mini-GPTs via contextual pruning.",no,,no,,True,True,True,True,RESOLVED
+S10291,yes,Large Language Models (LLMs) enable advanced natural language processing,no,,no,,True,True,True,True,RESOLVED
+S10371,yes,QUICK... efficient inference of quantized Large Language Models (LLMs).,no,,no,,True,True,True,True,RESOLVED
+S10373,yes,Large Language Models (LLMs) excel in diverse applications but suffer inefficiency due to massive scale.,no,,no,,True,True,True,True,RESOLVED
+S10391,yes,Multimodal Small Language Models (MSLMs),unsure,,unsure,,,,,False,STILL_UNSURE
+S10392,yes,Large language models (LLMs) offer strong capabilities but raise cost and privacy concerns,yes,an SLM learns to proactively decide how to request an LLM during multi-step reasoning,unsure,,,,,False,STILL_UNSURE
+S10418,yes,"MiniCPM, specifically the 1.2B and 2.4B non-embedding parameter variants",no,,no,,True,True,True,True,RESOLVED
+S10435,unsure,,unsure,,unsure,,,,,False,STILL_UNSURE
+S10444,yes,QEFT accelerates both inference and fine-tuning of LLMs.,no,,no,,True,True,True,True,RESOLVED
+S10508,yes,Language model compression through knowledge distillation,unsure,,unsure,,,,,False,STILL_UNSURE
+S10515,yes,"EffGen, an open-source agentic framework optimized for small language models (SLMs)",yes,"EffGen, an open-source agentic framework optimized for small language models (SLMs)",unsure,,,,,False,STILL_UNSURE
+S10568,yes,"This paper introduces BitDistiller, a framework that synergizes Quantization-Aware Training (QAT) with Knowledge Distillation (KD) to boost the performance of LLMs",no,,no,,True,True,True,True,RESOLVED
+S10717,yes,The rapid advancement of large language models (LLMs) has significantly advanced the capabilities of artificial intelligence across various domains.,no,,no,,True,True,True,True,RESOLVED
+S10799,yes,"We present TernaryLM, a 132M-parameter transformer trained natively with ternary quantization",no,,no,,True,True,True,True,RESOLVED
+S10825,yes,"BlueLM-V-3B, an algorithm and system co-design approach specifically tailored for the efficient deployment of MLLMs on mobile platforms.",no,,no,,True,True,True,True,RESOLVED
+S10833,yes,Deploying large language models (LLMs) on mobile platforms faces significant challenges,no,,no,,True,True,True,True,RESOLVED
+S10862,yes,Quantization of Large Language Models (LLMs) has recently gained popularity,no,,no,,True,True,True,True,RESOLVED
+S10958,yes,LLMs have shown surprising performance in task-specific workloads as well as general tasks,no,,no,,True,True,True,True,RESOLVED
+S11006,yes,"LLMs, Large Language Models (LLMs)",no,,no,,True,True,True,True,RESOLVED
+S11009,no,,no,,no,,True,True,True,True,RESOLVED
+S11044,yes,proposes Convolutional Code Quantization (CCQ) for compressing LLMs,no,,no,,True,True,True,True,RESOLVED
+S11076,yes,This paper proposes an adaptive mixed precision quantization mechanism for edge deployment of LLMs.,no,,no,,True,True,True,True,RESOLVED
+S11099,yes,LLMs has attracted increasing attentions recently in reducing memory costs and improving computational efficiency.,no,,no,,True,True,True,True,RESOLVED
+S11138,yes,We propose a memory-efficient finetuning algorithm for large language models (LLMs),no,,no,,True,True,True,True,RESOLVED
+S11205,yes,"Small Language Models (SLMs, or on-device LMs) have significantly fewer parameters than Large Language Models (LLMs).",no,,no,,True,True,True,True,RESOLVED
+S11404,yes,This paper explores the design of accurate yet efficient Small Language Models (SLMs) for resource-constrained devices.,no,,no,,True,True,True,True,RESOLVED
+S11479,yes,Deploying Large Language Models (LLMs) on resource-constrained edge devices like the Raspberry Pi,no,,no,,True,False,False,True,STILL_UNSURE
+S11521,yes,This paper investigates the pretraining of low-bitwidth models specifically Ternary Language Models (TriLMs),no,,no,,True,True,True,True,RESOLVED
+S11535,yes,"Making large language models (LLMs) more efficient in memory, latency, and serving cost",no,,no,,True,True,True,True,RESOLVED
+S11576,yes,Large Language Models (LLMs) fine-tuning technologies have achieved remarkable results.,no,,no,,True,True,True,True,RESOLVED
+S11778,yes,LLMs showcase groundbreaking capabilities across diverse applications,no,,no,,True,True,True,True,RESOLVED
+S11929,yes,LLMs offer remarkable capabilities in natural language understanding and generation,no,,no,,True,True,True,True,RESOLVED
+S12193,yes,Large Language Models (LLMs) have demonstrated remarkable capabilities across a range of Natural Language Processing (NLP) tasks,no,,no,,True,True,True,True,RESOLVED
