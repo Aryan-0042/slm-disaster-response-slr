@@ -76,4 +76,4 @@ Data and protocol: https://github.com/Aryan-0042/slm-disaster-response-slr
 
 ## Licence
 
-No licence file has been added yet. The authors should add one, such as CC BY 4.0 for the data and documents and MIT for the script.
+No licence file has been added yet. <!--The authors should add one, such as CC BY 4.0 for the data and documents and MIT for the script.-->
