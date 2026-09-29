@@ -8,8 +8,10 @@ Usage (from the repository root):
 The script prints a JSON summary and writes it to counts.json. It applies
 the post-freeze verification documented in amendment_log.md and
 data/post_freeze_verification.csv:
-  * S0005, S1258, and S2418 are treated as not retrieved (the archived file
-    was a different paper), as the protocol already did for S2546.
+  * S0005 and S1258 are treated as not retrieved (the archived file was a
+    different paper), as the protocol already did for S2546. S2418, whose
+    archived file was also a different paper, is reported as awaiting
+    classification. Each record is counted in one final category only.
   * Two rubric scores are revised from 2 to 1 (S0093 safety; S0577 context
     realism).
 """
@@ -123,11 +125,15 @@ for s in man.stage_id:
 out["sought"] = len(man)
 out["sought_by_route"] = pd.Series(route).value_counts().to_dict()
 
-WRONG_DOCUMENT = ["S2546", "S0005", "S1258", "S2418"]
-NO_ACCESS = ["S0799", "S0928", "S1436", "S2427"]
+WRONG_DOCUMENT = ["S2546", "S0005", "S1258"]   # not retrieved
+NO_ACCESS = ["S0799", "S0928", "S1436", "S2427"]  # not retrieved
+AWAITING = ["S2418"]  # wrong file archived; abstract suggests eligibility
 LATE_DUPLICATE = ["S0447"]
-assessed = [s for s in man.stage_id if s not in WRONG_DOCUMENT + NO_ACCESS + LATE_DUPLICATE]
-out["not_retrieved"] = dict(no_access=NO_ACCESS, wrong_document=WRONG_DOCUMENT)
+assessed = [s for s in man.stage_id if s not in WRONG_DOCUMENT + NO_ACCESS + AWAITING + LATE_DUPLICATE]
+out["not_retrieved"] = dict(no_access=NO_ACCESS, wrong_document=WRONG_DOCUMENT,
+                            total=len(NO_ACCESS) + len(WRONG_DOCUMENT))
+out["awaiting_classification"] = AWAITING
+out["late_duplicate"] = LATE_DUPLICATE
 out["assessed"] = len(assessed)
 
 # ---------------------------------------------------------------- full-text outcomes

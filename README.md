@@ -7,7 +7,8 @@ This repository contains the protocol, amendment log, audit trail, and analysis 
 ## Key results
 
 - 14 studies were included from 13,490 records identified in IEEE Xplore, Scopus, OpenAlex, and arXiv (2019 to September 2026).
-- Models of 1.5 to 9 billion parameters, adapted with LoRA, QLoRA, and 4-bit quantization, reach competitive task performance.
+- In nine studies, models of 1.5 to 8 billion parameters produce the main outputs. Adapted with LoRA, QLoRA, or 4-bit quantization, several of them reach competitive task performance.
+- One study uses a 20.9B open-weights model. Two place core reasoning on large remote models (17B, 70B, 671B).
 - An offline Bluetooth-mesh retrieval system reached Recall@5 of 0.89, against 0.95 for a cloud service.
 - One study ran its model on physical edge hardware and one on emulated edge hardware. Two tested operation under network loss.
 - No study has yet evaluated a disaster-guidance task offline, and safety is described rather than measured.
@@ -22,7 +23,9 @@ This repository contains the protocol, amendment log, audit trail, and analysis 
 | Records screened (title/abstract) | 11,992 |
 | Records excluded | 11,936 |
 | Reports sought for retrieval | 56 |
-| Not retrieved (4 no access, 4 wrong document) + 1 late duplicate | 9 |
+| Not retrieved (4 no access, 3 wrong document) | 7 |
+| Awaiting classification (S2418; full text not obtained) | 1 |
+| Late duplicate removed | 1 |
 | Full texts assessed | 47 |
 | After the document check (E1, E2) | 45 |
 | Excluded at the eligibility check (E4 6, E5 7, E7 5) | 18 |
@@ -30,7 +33,7 @@ This repository contains the protocol, amendment log, audit trail, and analysis 
 | Excluded on quality (<5/8) and by the provenance scan (E4) | 11 + 2 |
 | **Studies included** | **14** |
 
-**Full-text funnel: 47 → 27 → 14.** At the corpus freeze (v2.5d, 20 September 2026) the funnel was 48 → 28 → 15. The v2.6 verification then found that three archived full texts, including one included study (S2418), were a different paper from the record sought. These reports were reclassified as *not retrieved*. See [`amendment_log.md`](amendment_log.md).
+**Full-text funnel: 47 → 27 → 14.** At the corpus freeze (v2.5d, 20 September 2026) the funnel was 48 → 28 → 15. The v2.6 verification then found that three archived full texts were a different paper from the record sought. Two of these reports (S0005, S1258) were reclassified as *not retrieved*. The third, S2418, had been included; it is now listed as *awaiting classification* until its full text is obtained. See [`amendment_log.md`](amendment_log.md).
 
 ## Screening pipeline
 
@@ -46,6 +49,7 @@ This repository contains the protocol, amendment log, audit trail, and analysis 
 ├── protocol.md            locked protocol: questions, eligibility (axes A/B/C, codes E1-E7),
 │                          exact search strings for all databases, screening, rubric, grading
 ├── amendment_log.md       every change after the protocol was locked (v1.8 to v2.6)
+├── prisma_s_checklist.md  PRISMA-S reporting checklist for the literature search
 ├── data/                  audit trail (see data/README.md)
 │   ├── final_corpus_verified.csv     the 14 included studies with evidence grades
 │   ├── rubric_worksheet.csv          rubric scores and notes for the 28 frozen candidates
@@ -76,4 +80,4 @@ Data and protocol: https://github.com/Aryan-0042/slm-disaster-response-slr
 
 ## Licence
 
-No licence file has been added yet. <!--The authors should add one, such as CC BY 4.0 for the data and documents and MIT for the script.-->
+No licence file has been added yet. The authors should add one, such as CC BY 4.0 for the data and documents and MIT for the script.

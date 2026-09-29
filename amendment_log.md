@@ -22,16 +22,18 @@ The machine-readable records for v1.8 to v2.5d are in `data/amendments/`.
 | 10 | v2.5 | 20 Sep | Process | Quality rubric applied (threshold 5/8): 11 excluded, 17 retained. Corpus frozen. |
 | 11 | v2.5b-c | 20 Sep | Rule | **Deterministic provenance scan introduced.** S3496 (SafeMate; reasoning on o3-mini-high, compared with GPT-4o and GPT-3.5, no small or local model) recoded E4 and its rubric scores voided. Corpus: 16. |
 | 12 | v2.5d | 20 Sep | Rule | **Provenance scan (V4) applied to every retained candidate.** Full texts were scanned for cloud-model names and inference APIs and for evidence of a small or local model. S0043 (wildfire risk framework; LLM stage on GPT-4.1 and GPT-5.2) recoded E4. S3510 retained (no cloud-model identifiers). Corpus refrozen: 15. |
-| 13 | v2.6 | 25 Sep | Verification | **Retrieval-integrity check.** Every archived full text was matched against its record's title and authors. Three files were a different paper from the record sought: S0005 (a 1999 tornado survey report), S1258 (a 2011 review on crowdsourcing and citizen sensing), and S2418 (Kagai et al., *Voice Over LoRa*, ICOIN 2024, which contains no language model). These three were reclassified as *not retrieved*, following the rule already applied to S2546. S2418 is listed as awaiting classification until its full text (Amirkhanov et al., Nazarbayev University Repository, 2025) is obtained. S0005 and S1258 had been excluded as E4, so the included set is unaffected. |
+| 13 | v2.6 | 25 Sep | Verification | **Retrieval-integrity check.** Every archived full text was matched against its record's title and authors. Three files were a different paper from the record sought: S0005 (a 1999 tornado survey report), S1258 (a 2011 review on crowdsourcing and citizen sensing), and S2418 (Kagai et al., *Voice Over LoRa*, ICOIN 2024, which contains no language model). S0005 and S1258 were reclassified as *not retrieved*, following the rule already applied to S2546. Both had been excluded as E4, so this change does not affect the included set. S2418 is reported as *awaiting classification* until its full text (Amirkhanov et al., Nazarbayev University Repository, 2025) is obtained. Each record appears in only one final PRISMA category. |
 | 14 | v2.6 | 25 Sep | Verification | **Re-check of every score of 2 on context realism (CR) and safety (S) among included studies.** S0577 CR lowered from 2 to 1: its only disconnection test is attributed to a cited source. S0093 S lowered from 2 to 1: its archived quotation concerned latency, and the paper only describes design choices to limit hallucination. Both studies remain included (totals 5 and 6). Details: `data/post_freeze_verification.csv`. |
-| 15 | v2.6 | 25 Sep | Verification | **Documentation corrections.** Axis B is described in the manuscript as it was applied in screening (architecture: agentic, multi-agent, RAG, tool-use, or state-machine pipeline). Comparative evaluation entered eligibility only through the E4 rule. S0610's landing-page pack was supplemented with its arXiv full text (v2) for data extraction. |
+| 15 | v2.6 | 25 Sep | Verification | **Documentation corrections.** Axis B is described in the manuscript as it was applied in screening (architecture: agentic, multi-agent, RAG, tool-use, or state-machine pipeline). Comparative evaluation entered eligibility only through the E4 rule. S0610's landing-page pack was supplemented with its arXiv full text (v2) for data extraction. A motivation-level fit to the disaster domain is stated explicitly as sufficient for axis C, with domain strength recorded by the C grade. A PRISMA-S checklist was added (`prisma_s_checklist.md`). |
 
 ## Effect on the PRISMA counts
 
 | Stage | Frozen (v2.5d) | After verification (v2.6) |
 |---|---|---|
 | Reports sought | 56 | 56 |
-| Not retrieved (plus late duplicate) | 5 (+1) | 8 (+1) |
+| Not retrieved | 5 | 7 |
+| Awaiting classification | 0 | 1 |
+| Late duplicate removed | 1 | 1 |
 | Full texts assessed | 50 | 47 |
 | After the document check (E1, E2) | 48 | 45 |
 | Quality-rubric candidates | 28 | 27 |

@@ -19,7 +19,7 @@ All files are UTF-8 CSV, JSON, or JSON Lines. `stage_id` (for example `S0460`) i
 | `ieee_core.csv`, `ieee_supp.csv`, `scopus.csv` | Database exports from 9 September 2026 (abstract column removed). |
 | `openalex_records.csv`, `arxiv_records.csv` | Unique records per source, with the IDs of the queries that returned them (`search_id`). |
 | `openalex_search_log.json`, `arxiv_search_log.json` | Every executed query and its raw hit count. |
-| `search_registration.json`, `session_manifest.json` | Search registration (date, year range, sources) and SHA-256 checksums of the original exports. The checksums apply to the files before the abstract column was removed. |
+| `search_registration.json`, `session_manifest.json` | Search record (date, year range, sources) and SHA-256 checksums of the original exports. The checksums apply to the files before the abstract column was removed. |
 
 ## `screening/`
 

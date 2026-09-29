@@ -7,7 +7,7 @@ Authors: Rahul, Aryan, Dhairya (Computer Science and Engineering, Sharda Univers
 | Item | Value |
 |---|---|
 | Reporting guideline | PRISMA 2020 |
-| Search registered and locked | 9 September 2026 (`data/search/search_registration.json`) |
+| Searches conducted | 9 September 2026; the search record was locked before screening (`data/search/search_registration.json`) |
 | Audit design locked | 11 September 2026, before any audit result (`data/screening/audit_lock_v1.9.json`) |
 | Corpus frozen | 20 September 2026 (amendment v2.5d) |
 | Post-freeze verification | 25 September 2026 (amendment v2.6, see `amendment_log.md`) |
@@ -42,6 +42,8 @@ Exclusion codes:
 | E6 | Military or war-gaming application without a humanitarian component (title/abstract stage only) |
 | E7 | Axis C not met: no disaster, emergency, or humanitarian domain |
 | Q | Quality rubric total below 5/8 (Section 6) |
+
+A motivation-level fit to the disaster domain satisfies axis C. The strength of domain alignment is recorded separately by the C grade (Section 8).
 
 Routine settings without disaster grounding (for example hospital triage, traffic control, or grid maintenance) fail axis C. Preprints are eligible. No restriction on study design is applied beyond E2.
 
@@ -144,7 +146,7 @@ The executed queries and their hit counts are logged in `data/search/openalex_se
 
 ## 4. Deduplication
 
-1. Record unification: records merged into cross-database clusters by DOI, arXiv or OpenAlex identifier, or normalized title (1,241 records collapsed into 979 clusters; `data/screening/dedup_clusters.csv`).
+1. Record unification: records grouped into cross-database clusters by DOI, arXiv or OpenAlex identifier, or normalized title (1,241 duplicate copies removed across 979 clusters; `data/screening/dedup_clusters.csv`).
 2. Late fuzzy title matching with rule-based and manual adjudication of candidate pairs (257 further duplicates removed; amendments v1.8 to v1.8b). Result: 11,992 unique records.
 
 ## 5. Title and abstract screening
