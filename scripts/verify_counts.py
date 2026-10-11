@@ -13,7 +13,7 @@ data/post_freeze_verification.csv:
     archived file was also a different paper, is reported as awaiting
     classification. Each record is counted in one final category only.
   * Two rubric scores are revised from 2 to 1 (S0093 safety; S0577 context
-    realism).
+    realism), and two from 1 to 0 (S1411 and S3110 context realism; v2.8).
 """
 import json
 import os
@@ -169,7 +169,7 @@ out["eligibility_gate"] = dict(reports=len(g), machine_suggested=len(auto), agre
 cols = dict(R="human_rigour_score", E="human_evaluation_score",
             CR="human_context_realism_score", S="human_safety_score")
 sc = rub.loc[included, list(cols.values())].rename(columns={v: k for k, v in cols.items()}).astype(int)
-for (s, c), v in {("S0093", "S"): 1, ("S0577", "CR"): 1}.items():
+for (s, c), v in {("S0093", "S"): 1, ("S0577", "CR"): 1, ("S1411", "CR"): 0, ("S3110", "CR"): 0}.items():
     sc.loc[s, c] = v
 sc["total"] = sc.sum(axis=1)
 out["rubric_included"] = sc.to_dict(orient="index")
@@ -190,6 +190,84 @@ lo, hi = cp_interval(k_inc, len(rnd))
 out["residual_estimate"] = dict(stage1_exclusions=n_out, random_sample_includes=k_inc,
                                 est_includable=n_out * k_inc / len(rnd),
                                 ci95=[n_out * lo, n_out * hi])
+
+
+def count_values(series):
+    """Count how often each value appears, as a plain dictionary."""
+    return {str(k): int(v) for k, v in series.value_counts().sort_index().items()}
+
+
+# ---------------------------------------------------------------- search queries and raw hits
+openalex_log = json.load(open(path("search", "openalex_search_log.json")))
+arxiv_log = json.load(open(path("search", "arxiv_search_log.json")))
+search_files = os.listdir(path("search"))
+out["search_queries"] = dict(
+    ieee=len([f for f in search_files if f.startswith("ieee_")]),  # core and supplementary exports
+    scopus=len([f for f in search_files if f.startswith("scopus")]),
+    openalex=len(openalex_log),
+    arxiv=len(arxiv_log),
+)
+out["search_queries"]["total"] = sum(out["search_queries"].values())
+out["raw_hits"] = dict(
+    openalex=sum(q["hits"] for q in openalex_log),
+    arxiv=sum(q["hits"] for q in arxiv_log),
+)
+
+# ---------------------------------------------------------------- stage 3 majority vote
+vote_status = {}
+with open(path("screening", "triple_pass_audit.jsonl")) as fh:
+    for line in fh:
+        x = json.loads(line)
+        if x["status"] != "API_ERROR":
+            vote_status[x["stage_id"]] = x["status"]
+out["queue"]["majority_reached"] = sum(1 for v in vote_status.values() if v == "ADJUDICATED")
+out["queue"]["no_majority_decided_by_reviewer"] = [s for s, v in vote_status.items() if v != "ADJUDICATED"]
+
+# ---------------------------------------------------------------- included studies: labels, grades, baselines
+corpus = read("final_corpus_verified.csv")
+out["corpus_file_matches_included"] = sorted(corpus.stage_id) == included
+verified_totals = corpus.set_index("stage_id").total_verified.sort_index()
+out["corpus_totals_match_rubric"] = bool((verified_totals == sc.total.sort_index()).all())
+out["included_labels"] = count_values(corpus.screening_label)
+out["included_years"] = count_values(corpus.year)
+out["included_venue_types"] = count_values(corpus.venue_type)
+out["included_clusters"] = count_values(corpus.cluster)
+grade_columns = dict(A="grade_model_A", X="grade_hardware_X", O="grade_offline_O", C="grade_disaster_C")
+out["grades"] = {g: count_values(corpus[c]) for g, c in grade_columns.items()}
+baseline_columns = dict(L="baseline_larger_L", P="baseline_peer_P", Ab="baseline_ablation_Ab", N="baseline_nonLLM_N")
+out["baselines"] = {b: int(corpus[c].sum()) for b, c in baseline_columns.items()}
+both_baselines = corpus[(corpus.baseline_larger_L == 1) & (corpus.baseline_nonLLM_N == 1)]
+out["larger_and_nonLLM_baseline"] = sorted(both_baselines.stage_id)
+out["rubric_scores_of_2"] = {c: int((sc[c] == 2).sum()) for c in ["R", "E", "CR", "S"]}
+
+# ---------------------------------------------------------------- random sample composition
+drawn = read("screening", "audit_5pct_sample.csv")
+drawn_rows = t.loc[drawn.stage_id]
+drawn_canonical = drawn_rows[drawn_rows.dedup_status_ta == "canonical"]
+out["random_sample_drawn"] = dict(
+    drawn=len(drawn),
+    unified_records=len(trace),
+    canonical_stage1_exclusions=int((drawn_canonical.stage1_class == "OUT").sum()),
+    canonical_other_classes=int((drawn_canonical.stage1_class != "OUT").sum()),
+    duplicates_removed_later=int((drawn_rows.dedup_status_ta != "canonical").sum()),
+)
+
+# ---------------------------------------------------------------- both exclusion audits together
+flagged_random = set(rnd[rnd.human_should_be != "correct_OUT"].stage_id)
+flagged_recall = set(rec[rec.human_should_be != "correct_OUT"].stage_id)
+audited_ids = set(rnd.stage_id) | set(rec.stage_id)
+rescued = sorted(flagged_random | flagged_recall)
+rescued_class = t.loc[rescued, "class_after_audit"]
+out["exclusion_audit_combined"] = dict(
+    unique_audited=len(audited_ids),
+    rescued=len(rescued),
+    rescued_by_both_samples=len(flagged_random & flagged_recall),
+    rescued_to_queue=int((rescued_class == "HUMAN_REVIEW").sum()),
+    rescued_to_retrieval=int((rescued_class != "HUMAN_REVIEW").sum()),
+    confirmed=len(audited_ids) - len(rescued),
+    exclusions_after_audit=n_out - len(rescued),
+)
+out["eligibility_gate"]["excluded_before_gate"] = len(DOC_GATE)
 
 print(json.dumps(out, indent=1, default=str))
 with open("counts.json", "w") as fh:

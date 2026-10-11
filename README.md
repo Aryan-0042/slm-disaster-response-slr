@@ -1,17 +1,17 @@
 # Small Language Models for Offline Disaster Response: A PRISMA Systematic Review of Edge Deployment and Safety Evidence
 
-**Authors:** Rahul, Aryan, Dhairya, Computer Science and Engineering, Sharda University, Greater Noida, India
+**Authors:** Jyoti Gautam, Aryan, Rahul, Dhairya Panwar, Department of CSE, Sharda University, Greater Noida, India
 
 This repository contains the protocol, amendment log, audit trail, and analysis script for the systematic review. The review asks whether disaster-response systems built on small or locally deployable language models demonstrate what motivates them: on-device execution, operation without connectivity, and measured safety.
 
 ## Key results
 
 - 14 studies were included from 13,490 records identified in IEEE Xplore, Scopus, OpenAlex, and arXiv (2019 to September 2026).
-- In nine studies, models of 1.5 to 8 billion parameters produce the main outputs. Adapted with LoRA, QLoRA, or 4-bit quantization, several of them reach competitive task performance.
+- In nine studies, named models of 1.5 to 8 billion parameters produce the main outputs. Six of them are adapted with LoRA, QLoRA, or quantization, and several reach competitive task performance.
 - One study uses a 20.9B open-weights model. Two place core reasoning on large remote models (17B, 70B, 671B).
 - An offline Bluetooth-mesh retrieval system reached Recall@5 of 0.89, against 0.95 for a cloud service.
 - One study ran its model on physical edge hardware and one on emulated edge hardware. Two tested operation under network loss.
-- No study has yet evaluated a disaster-guidance task offline, and safety is described rather than measured.
+- No included study has yet evaluated a disaster-guidance task under measured offline conditions, and safety is described rather than measured.
 - The paper proposes an evidence-grading framework and a **Deployment Evidence Card** for reporting.
 
 ## PRISMA 2020 flow
@@ -48,7 +48,7 @@ This repository contains the protocol, amendment log, audit trail, and analysis 
 ├── README.md              this file
 ├── protocol.md            locked protocol: questions, eligibility (axes A/B/C, codes E1-E7),
 │                          exact search strings for all databases, screening, rubric, grading
-├── amendment_log.md       every change after the protocol was locked (v1.8 to v2.6)
+├── amendment_log.md       every change after the protocol was locked (v1.8 to v2.7)
 ├── prisma_s_checklist.md  PRISMA-S reporting checklist for the literature search
 ├── data/                  audit trail (see data/README.md)
 │   ├── final_corpus_verified.csv     the 14 included studies with evidence grades
@@ -58,7 +58,7 @@ This repository contains the protocol, amendment log, audit trail, and analysis 
 │   ├── post_freeze_verification.csv
 │   ├── search/  screening/  fulltext/  amendments/
 └── scripts/
-    └── verify_counts.py   reproduces every count reported in the paper
+    └── verify_counts.py   reproduces the selection, audit, grading, baseline, and rubric counts in the paper
 ```
 
 ## Reproducing the counts
@@ -68,12 +68,12 @@ pip install pandas scipy
 python scripts/verify_counts.py
 ```
 
-The script prints the full PRISMA reconciliation, including the audit rates, the 56 reports sought by route, the full-text outcomes, the verified rubric scores, and the screening-sensitivity estimate. It also writes the summary to `counts.json`.
+The script prints the full PRISMA reconciliation, including the query counts and raw hits, the audit rates, the composition of the pre-drawn random sample, the combined result of both exclusion audits (unique records audited, rescues, and where they went), the 56 reports sought by route, the full-text outcomes, the eligibility labels, evidence grades, and baseline counts of the included studies, the verified rubric scores, and the screening-sensitivity estimate. It also writes the summary to `counts.json`.
 
 ## Citation
 
 ```
-Rahul, Aryan, and Dhairya, "Small Language Models for Offline Disaster Response:
+J. Gautam, Aryan, Rahul, and D. Panwar, "Small Language Models for Offline Disaster Response:
 A PRISMA Systematic Review of Edge Deployment and Safety Evidence," 2026.
 Data and protocol: https://github.com/Aryan-0042/slm-disaster-response-slr
 ```

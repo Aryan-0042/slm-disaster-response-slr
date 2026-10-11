@@ -10,7 +10,7 @@ All files are UTF-8 CSV, JSON, or JSON Lines. `stage_id` (for example `S0460`) i
 | `rubric_worksheet.csv` | Quality-rubric worksheet for the 28 candidates scored at freeze (v2.5d): machine draft scores with quotations, human scores, and human notes. |
 | `final_papers_info.csv` | Metadata of the 15 studies in the frozen corpus (v2.5d), before verification. |
 | `final_corpus_frozen_v2.5d.csv` | Full screening record of the 15-study frozen corpus, with human rubric scores. |
-| `post_freeze_verification.csv` | The five changes made by the v2.6 verification and the reason for each. |
+| `post_freeze_verification.csv` | The changes made after the freeze (v2.6 verification and v2.7 record reconciliation) and the reason for each. |
 
 ## `search/`
 
@@ -29,7 +29,8 @@ All files are UTF-8 CSV, JSON, or JSON Lines. `stage_id` (for example `S0460`) i
 | `dedup_clusters.csv` | Cross-database duplicate clusters. |
 | `audit_lock_v1.9.json` | Locked audit design (seed, samples, decision bands). |
 | `audit_includes.csv` | Human check of all machine includes. |
-| `audit_random_worksheet.csv` | Random-sample audit of machine exclusions (575 canonical records). |
+| `audit_5pct_sample.csv` | The pre-drawn 5% simple random sample of the 12,249 unified records (612 rows), with the Stage 1 output for each row (abstract column removed). It holds 575 canonical Stage 1 exclusions, 16 canonical records of other classes, and 21 duplicates removed later. The SHA-256 in `audit_lock_v1.9.json` applies to the file before the abstract column was removed. |
+| `audit_random_worksheet.csv` | Random-sample audit of machine exclusions: the 575 canonical Stage 1 exclusions in the pre-drawn sample. |
 | `audit_recall_worksheet.csv` | Recall-focused audit of machine exclusions (1,209 records in five lanes). |
 | `h2_adjudication.csv` | 14B-model adjudication of the human-review queue. |
 | `triple_pass_audit.jsonl` | Three-pass majority-vote adjudication (all passes, votes, and quotations). |

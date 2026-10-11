@@ -2,7 +2,7 @@
 
 **Small Language Models for Offline Disaster Response: A PRISMA Systematic Review of Edge Deployment and Safety Evidence**
 
-Authors: Rahul, Aryan, Dhairya (Computer Science and Engineering, Sharda University, Greater Noida, India)
+Authors: Jyoti Gautam, Aryan, Rahul, Dhairya Panwar (Department of CSE, Sharda University, Greater Noida, India)
 
 | Item | Value |
 |---|---|
@@ -10,7 +10,7 @@ Authors: Rahul, Aryan, Dhairya (Computer Science and Engineering, Sharda Univers
 | Searches conducted | 9 September 2026; the search record was locked before screening (`data/search/search_registration.json`) |
 | Audit design locked | 11 September 2026, before any audit result (`data/screening/audit_lock_v1.9.json`) |
 | Corpus frozen | 20 September 2026 (amendment v2.5d) |
-| Post-freeze verification | 25 September 2026 (amendment v2.6, see `amendment_log.md`) |
+| Post-freeze verification | 25 September 2026 (amendment v2.6) and 30 September 2026 (amendment v2.7); see `amendment_log.md` |
 | Public registration | Not prospectively registered in a public registry; this repository is the public record |
 
 This document restates the locked protocol. Steps that were added after the protocol was locked are marked **[Amendment]** and are explained in [`amendment_log.md`](amendment_log.md).
@@ -188,6 +188,8 @@ The executed queries and their hit counts are logged in `data/search/openalex_se
 | Safety (S) | Limitations mentioned | Systematic treatment of risks, guardrails, or failure modes |
 
 A score of 0 means the score-1 description is not met. Hard rule for CR: a score of 2 requires evidence that offline or disconnected conditions were tested or simulated. Language that only motivates offline use is capped at 1.
+
+*Note (amendment v2.8, 11 October 2026):* context realism was scored as 0 when offline or disconnected operation is not discussed, 1 when it is discussed but not tested (or a test is only cited), and 2 when it is tested or simulated. The level-1 wording in the table above did not match this practice; see `amendment_log.md`.
 
 5. **[Amendment v2.5b to v2.5d] Provenance scan.** The full text of each retained candidate is scanned for cloud-model names and inference-API services, and for evidence of a small or local model (named models with parameter counts, local runtimes, quantization). A candidate with cloud models and no small- or local-model evidence is recoded E4.
 
