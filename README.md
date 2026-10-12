@@ -72,12 +72,12 @@ The script prints the full PRISMA reconciliation, including the query counts and
 
 ## Citation
 
-```
-J. Gautam, Aryan, Rahul, and D. Panwar, "Small Language Models for Offline Disaster Response:
-A PRISMA Systematic Review of Edge Deployment and Safety Evidence," 2026.
-Data and protocol: https://github.com/Aryan-0042/slm-disaster-response-slr
-```
+## Citation
+
+Withheld for double-blind review. 
+
+The full citation details, including author names, affiliations, and the conference/journal publication information, will be updated here once the review process is complete and the paper is accepted.
 
 ## Licence
 
-No licence file has been added yet. <!-- The authors should add one, such as CC BY 4.0 for the data and documents and MIT for the script.-->
+No licence file has been added yet. 
