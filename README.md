@@ -1,7 +1,5 @@
 # Small Language Models for Offline Disaster Response: A PRISMA Systematic Review of Edge Deployment and Safety Evidence
 
-**Authors:** Jyoti Gautam, Aryan, Rahul, Dhairya Panwar, Department of CSE, Sharda University, Greater Noida, India
-
 This repository contains the protocol, amendment log, audit trail, and analysis script for the systematic review. The review asks whether disaster-response systems built on small or locally deployable language models demonstrate what motivates them: on-device execution, operation without connectivity, and measured safety.
 
 ## Key results
@@ -69,8 +67,6 @@ python scripts/verify_counts.py
 ```
 
 The script prints the full PRISMA reconciliation, including the query counts and raw hits, the audit rates, the composition of the pre-drawn random sample, the combined result of both exclusion audits (unique records audited, rescues, and where they went), the 56 reports sought by route, the full-text outcomes, the eligibility labels, evidence grades, and baseline counts of the included studies, the verified rubric scores, and the screening-sensitivity estimate. It also writes the summary to `counts.json`.
-
-## Citation
 
 ## Citation
 
